@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+.no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.scroll-container {
+  scrollbar-gutter: stable both-edges;
+}
+
+@layer utilities {
+  .bg-grid {
+    background-color: #ffffff; /* White base */
+    background-image: 
+      repeating-linear-gradient(0deg, #1f5ad2 0px, #1d3769 1px, transparent 1px, transparent 40px),
+      repeating-linear-gradient(90deg, #1f5bd2 0px, #1f5ad2 1px, transparent 1px, transparent 40px);
+    background-size: 40px 40px; /* Grid square size */
+  }
+}
+
