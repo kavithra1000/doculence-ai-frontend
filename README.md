@@ -1,12 +1,38 @@
-# React + Vite
+# 📄 DocuLens – AI-Powered Web Content Extraction & Chat Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DocuLens is a web-based platform that extracts content from websites, summarizes it, and allows users to interact with the content through an AI-powered chat interface.
 
-Currently, two official plugins are available:
+> 🚧 **Status:** Ongoing Development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Extracts clean and readable content from web pages
+- Generates concise and detailed summaries using AI
+- AI-powered chat to ask questions about extracted content
+- Secure user authentication using JWT
+- Global state management with Zustand
+- Fully responsive and intuitive UI
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
+- **Frontend:** React.js, Tailwind CSS, DASI UI  
+- **Backend:** Node.js, Express.js  
+- **Database:** MongoDB  
+- **AI Integration:** Gemini API / OpenAI API  
+- **State Management:** Zustand  
+- **Authentication:** JWT  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Highlights
+- Productivity-focused tool for reading and research
+- Modular and scalable MERN architecture
+- Clean UI with smooth user experience
+
+## 🔮 Planned Enhancements
+- PDF and document upload support
+- Chat history and export functionality
+- Subscription-based access model
+- Multi-source content extraction
+
+## 📦 Installation
+```bash
+git clone <repo-url>
+npm install
+npm run dev
